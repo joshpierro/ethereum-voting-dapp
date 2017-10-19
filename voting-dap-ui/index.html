@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>voting-dap</title>
+    <link rel="stylesheet" href="libs/material-light/material.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="libs/material-light/material.js"></script>
+</head>
+<body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Voting Dapp</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content app-container">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <div class="mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Rama</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                A wonderful person!!!
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="Rama">
+                                    Vote!
+                                </a>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <span>Total Votes:</span><span id="rama-votes">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <div class="mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Nick</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Make blockchain great again!!!
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="Nick">
+                                    Vote!
+                                </a>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <div class="mdl-grid">
+                                    <span>Total Votes:</span><span id="nick-votes">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col">
+                        <div class="mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Jose</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Working for you!
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="Jose">
+                                    Vote!
+                                </a>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+
+                                <div class="mdl-grid">
+                                    <span>Total Votes:</span><span id="jose-votes">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+</div>
+<script src="libs/web3.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
+
